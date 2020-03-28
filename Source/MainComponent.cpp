@@ -26,7 +26,7 @@ void MainComponent::paint (Graphics& g)
 
     g.setFont (Font (32.0f));
     g.setColour (Colours::yellow);
-    g.drawText ("Hello World!", getLocalBounds(), Justification::centred, true);
+    g.drawText ("Hello World!", getLocalBounds(), Justification::centredTop, true);
 }
 
 void MainComponent::resized()
